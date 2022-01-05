@@ -1,0 +1,2388 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 3000 7250 0    50   Input ~ 0
+row5
+Text HLabel 3000 6500 0    50   Input ~ 0
+row4
+Text HLabel 3000 5750 0    50   Input ~ 0
+row3
+Text HLabel 3000 5000 0    50   Input ~ 0
+row2
+Text HLabel 3000 4250 0    50   Input ~ 0
+row1
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61D5F2B5
+P 3950 3200
+F 0 "SW?" H 3950 3485 50  0000 C CNN
+F 1 "SW_Push" H 3950 3394 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 3950 3400 50  0001 C CNN
+F 3 "~" H 3950 3400 50  0001 C CNN
+	1    3950 3200
+	1    0    0    -1  
+$EndComp
+Text HLabel 3000 3500 0    50   Input ~ 0
+row0
+Text HLabel 4150 7500 3    50   Input ~ 0
+col0
+Wire Wire Line
+	4150 3200 4150 3950
+$Comp
+L Device:D D?
+U 1 1 61D5C756
+P 3750 3350
+F 0 "D?" V 3796 3270 50  0000 R CNN
+F 1 "D" V 3705 3270 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3750 3350 50  0001 C CNN
+F 3 "~" H 3750 3350 50  0001 C CNN
+	1    3750 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61D72270
+P 3950 3950
+F 0 "SW?" H 3950 4235 50  0000 C CNN
+F 1 "SW_Push" H 3950 4144 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 3950 4150 50  0001 C CNN
+F 3 "~" H 3950 4150 50  0001 C CNN
+	1    3950 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61D72276
+P 3750 4100
+F 0 "D?" V 3796 4020 50  0000 R CNN
+F 1 "D" V 3705 4020 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3750 4100 50  0001 C CNN
+F 3 "~" H 3750 4100 50  0001 C CNN
+	1    3750 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61D728D7
+P 3950 4700
+F 0 "SW?" H 3950 4985 50  0000 C CNN
+F 1 "SW_Push" H 3950 4894 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 3950 4900 50  0001 C CNN
+F 3 "~" H 3950 4900 50  0001 C CNN
+	1    3950 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61D728DD
+P 3750 4850
+F 0 "D?" V 3796 4770 50  0000 R CNN
+F 1 "D" V 3705 4770 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3750 4850 50  0001 C CNN
+F 3 "~" H 3750 4850 50  0001 C CNN
+	1    3750 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61D72C64
+P 3950 5450
+F 0 "SW?" H 3950 5735 50  0000 C CNN
+F 1 "SW_Push" H 3950 5644 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 3950 5650 50  0001 C CNN
+F 3 "~" H 3950 5650 50  0001 C CNN
+	1    3950 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61D72C6A
+P 3750 5600
+F 0 "D?" V 3796 5520 50  0000 R CNN
+F 1 "D" V 3705 5520 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3750 5600 50  0001 C CNN
+F 3 "~" H 3750 5600 50  0001 C CNN
+	1    3750 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61D73055
+P 3950 6200
+F 0 "SW?" H 3950 6485 50  0000 C CNN
+F 1 "SW_Push" H 3950 6394 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 3950 6400 50  0001 C CNN
+F 3 "~" H 3950 6400 50  0001 C CNN
+	1    3950 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61D7305B
+P 3750 6350
+F 0 "D?" V 3796 6270 50  0000 R CNN
+F 1 "D" V 3705 6270 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3750 6350 50  0001 C CNN
+F 3 "~" H 3750 6350 50  0001 C CNN
+	1    3750 6350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61D7346E
+P 3950 6950
+F 0 "SW?" H 3950 7235 50  0000 C CNN
+F 1 "SW_Push" H 3950 7144 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 3950 7150 50  0001 C CNN
+F 3 "~" H 3950 7150 50  0001 C CNN
+	1    3950 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61D73474
+P 3750 7100
+F 0 "D?" V 3796 7020 50  0000 R CNN
+F 1 "D" V 3705 7020 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 3750 7100 50  0001 C CNN
+F 3 "~" H 3750 7100 50  0001 C CNN
+	1    3750 7100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3750 3500 3000 3500
+Wire Wire Line
+	3000 4250 3750 4250
+Wire Wire Line
+	3000 5000 3750 5000
+Wire Wire Line
+	3000 5750 3750 5750
+Wire Wire Line
+	3000 6500 3750 6500
+Wire Wire Line
+	3000 7250 3750 7250
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61E832AC
+P 4700 3200
+F 0 "SW?" H 4700 3485 50  0000 C CNN
+F 1 "SW_Push" H 4700 3394 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 4700 3400 50  0001 C CNN
+F 3 "~" H 4700 3400 50  0001 C CNN
+	1    4700 3200
+	1    0    0    -1  
+$EndComp
+Text HLabel 4900 7500 3    50   Input ~ 0
+col1
+Wire Wire Line
+	4900 3200 4900 3950
+$Comp
+L Device:D D?
+U 1 1 61E832B4
+P 4500 3350
+F 0 "D?" V 4546 3270 50  0000 R CNN
+F 1 "D" V 4455 3270 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 4500 3350 50  0001 C CNN
+F 3 "~" H 4500 3350 50  0001 C CNN
+	1    4500 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61E832BA
+P 4700 3950
+F 0 "SW?" H 4700 4235 50  0000 C CNN
+F 1 "SW_Push" H 4700 4144 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 4700 4150 50  0001 C CNN
+F 3 "~" H 4700 4150 50  0001 C CNN
+	1    4700 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61E832C0
+P 4500 4100
+F 0 "D?" V 4546 4020 50  0000 R CNN
+F 1 "D" V 4455 4020 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 4500 4100 50  0001 C CNN
+F 3 "~" H 4500 4100 50  0001 C CNN
+	1    4500 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61E832C6
+P 4700 4700
+F 0 "SW?" H 4700 4985 50  0000 C CNN
+F 1 "SW_Push" H 4700 4894 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 4700 4900 50  0001 C CNN
+F 3 "~" H 4700 4900 50  0001 C CNN
+	1    4700 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61E832CC
+P 4500 4850
+F 0 "D?" V 4546 4770 50  0000 R CNN
+F 1 "D" V 4455 4770 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 4500 4850 50  0001 C CNN
+F 3 "~" H 4500 4850 50  0001 C CNN
+	1    4500 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61E832D2
+P 4700 5450
+F 0 "SW?" H 4700 5735 50  0000 C CNN
+F 1 "SW_Push" H 4700 5644 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 4700 5650 50  0001 C CNN
+F 3 "~" H 4700 5650 50  0001 C CNN
+	1    4700 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61E832D8
+P 4500 5600
+F 0 "D?" V 4546 5520 50  0000 R CNN
+F 1 "D" V 4455 5520 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 4500 5600 50  0001 C CNN
+F 3 "~" H 4500 5600 50  0001 C CNN
+	1    4500 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61E832DE
+P 4700 6200
+F 0 "SW?" H 4700 6485 50  0000 C CNN
+F 1 "SW_Push" H 4700 6394 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 4700 6400 50  0001 C CNN
+F 3 "~" H 4700 6400 50  0001 C CNN
+	1    4700 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61E832E4
+P 4500 6350
+F 0 "D?" V 4546 6270 50  0000 R CNN
+F 1 "D" V 4455 6270 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 4500 6350 50  0001 C CNN
+F 3 "~" H 4500 6350 50  0001 C CNN
+	1    4500 6350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61E832EA
+P 4700 6950
+F 0 "SW?" H 4700 7235 50  0000 C CNN
+F 1 "SW_Push" H 4700 7144 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 4700 7150 50  0001 C CNN
+F 3 "~" H 4700 7150 50  0001 C CNN
+	1    4700 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61E832F0
+P 4500 7100
+F 0 "D?" V 4546 7020 50  0000 R CNN
+F 1 "D" V 4455 7020 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 4500 7100 50  0001 C CNN
+F 3 "~" H 4500 7100 50  0001 C CNN
+	1    4500 7100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4500 3500 5250 3500
+Wire Wire Line
+	4500 4250 5250 4250
+Wire Wire Line
+	4500 5000 5250 5000
+Wire Wire Line
+	4500 6500 5250 6500
+Wire Wire Line
+	4500 7250 5250 7250
+Wire Wire Line
+	4500 5750 5250 5750
+Wire Wire Line
+	3750 3500 4500 3500
+Connection ~ 3750 3500
+Connection ~ 4500 3500
+Wire Wire Line
+	3750 4250 4500 4250
+Connection ~ 3750 4250
+Connection ~ 4500 4250
+Wire Wire Line
+	3750 5000 4500 5000
+Connection ~ 3750 5000
+Connection ~ 4500 5000
+Wire Wire Line
+	3750 5750 4500 5750
+Connection ~ 3750 5750
+Connection ~ 4500 5750
+Wire Wire Line
+	3750 6500 4500 6500
+Connection ~ 3750 6500
+Connection ~ 4500 6500
+Wire Wire Line
+	3750 7250 4500 7250
+Connection ~ 3750 7250
+Connection ~ 4500 7250
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61E8D2BA
+P 5450 3200
+F 0 "SW?" H 5450 3485 50  0000 C CNN
+F 1 "SW_Push" H 5450 3394 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 5450 3400 50  0001 C CNN
+F 3 "~" H 5450 3400 50  0001 C CNN
+	1    5450 3200
+	1    0    0    -1  
+$EndComp
+Text HLabel 5650 7500 3    50   Input ~ 0
+col2
+Wire Wire Line
+	5650 3200 5650 3950
+$Comp
+L Device:D D?
+U 1 1 61E8D2C2
+P 5250 3350
+F 0 "D?" V 5296 3270 50  0000 R CNN
+F 1 "D" V 5205 3270 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5250 3350 50  0001 C CNN
+F 3 "~" H 5250 3350 50  0001 C CNN
+	1    5250 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61E8D2C8
+P 5450 3950
+F 0 "SW?" H 5450 4235 50  0000 C CNN
+F 1 "SW_Push" H 5450 4144 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 5450 4150 50  0001 C CNN
+F 3 "~" H 5450 4150 50  0001 C CNN
+	1    5450 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61E8D2CE
+P 5250 4100
+F 0 "D?" V 5296 4020 50  0000 R CNN
+F 1 "D" V 5205 4020 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5250 4100 50  0001 C CNN
+F 3 "~" H 5250 4100 50  0001 C CNN
+	1    5250 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61E8D2D4
+P 5450 4700
+F 0 "SW?" H 5450 4985 50  0000 C CNN
+F 1 "SW_Push" H 5450 4894 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 5450 4900 50  0001 C CNN
+F 3 "~" H 5450 4900 50  0001 C CNN
+	1    5450 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61E8D2DA
+P 5250 4850
+F 0 "D?" V 5296 4770 50  0000 R CNN
+F 1 "D" V 5205 4770 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5250 4850 50  0001 C CNN
+F 3 "~" H 5250 4850 50  0001 C CNN
+	1    5250 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61E8D2E0
+P 5450 5450
+F 0 "SW?" H 5450 5735 50  0000 C CNN
+F 1 "SW_Push" H 5450 5644 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 5450 5650 50  0001 C CNN
+F 3 "~" H 5450 5650 50  0001 C CNN
+	1    5450 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61E8D2E6
+P 5250 5600
+F 0 "D?" V 5296 5520 50  0000 R CNN
+F 1 "D" V 5205 5520 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5250 5600 50  0001 C CNN
+F 3 "~" H 5250 5600 50  0001 C CNN
+	1    5250 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61E8D2EC
+P 5450 6200
+F 0 "SW?" H 5450 6485 50  0000 C CNN
+F 1 "SW_Push" H 5450 6394 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 5450 6400 50  0001 C CNN
+F 3 "~" H 5450 6400 50  0001 C CNN
+	1    5450 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61E8D2F2
+P 5250 6350
+F 0 "D?" V 5296 6270 50  0000 R CNN
+F 1 "D" V 5205 6270 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5250 6350 50  0001 C CNN
+F 3 "~" H 5250 6350 50  0001 C CNN
+	1    5250 6350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61E8D2F8
+P 5450 6950
+F 0 "SW?" H 5450 7235 50  0000 C CNN
+F 1 "SW_Push" H 5450 7144 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 5450 7150 50  0001 C CNN
+F 3 "~" H 5450 7150 50  0001 C CNN
+	1    5450 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61E8D2FE
+P 5250 7100
+F 0 "D?" V 5296 7020 50  0000 R CNN
+F 1 "D" V 5205 7020 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 5250 7100 50  0001 C CNN
+F 3 "~" H 5250 7100 50  0001 C CNN
+	1    5250 7100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5250 3500 6000 3500
+Wire Wire Line
+	5250 4250 6000 4250
+Wire Wire Line
+	5250 5000 6000 5000
+Wire Wire Line
+	5250 6500 6000 6500
+Wire Wire Line
+	5250 7250 6000 7250
+Connection ~ 5250 3500
+Connection ~ 5250 4250
+Connection ~ 5250 5000
+Wire Wire Line
+	5250 5750 6000 5750
+Connection ~ 5250 5750
+Connection ~ 5250 6500
+Connection ~ 5250 7250
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61E905A0
+P 6200 3200
+F 0 "SW?" H 6200 3485 50  0000 C CNN
+F 1 "SW_Push" H 6200 3394 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 6200 3400 50  0001 C CNN
+F 3 "~" H 6200 3400 50  0001 C CNN
+	1    6200 3200
+	1    0    0    -1  
+$EndComp
+Text HLabel 6400 7500 3    50   Input ~ 0
+col3
+Wire Wire Line
+	6400 3200 6400 3950
+$Comp
+L Device:D D?
+U 1 1 61E905A8
+P 6000 3350
+F 0 "D?" V 6046 3270 50  0000 R CNN
+F 1 "D" V 5955 3270 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 6000 3350 50  0001 C CNN
+F 3 "~" H 6000 3350 50  0001 C CNN
+	1    6000 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61E905AE
+P 6200 3950
+F 0 "SW?" H 6200 4235 50  0000 C CNN
+F 1 "SW_Push" H 6200 4144 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 6200 4150 50  0001 C CNN
+F 3 "~" H 6200 4150 50  0001 C CNN
+	1    6200 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61E905B4
+P 6000 4100
+F 0 "D?" V 6046 4020 50  0000 R CNN
+F 1 "D" V 5955 4020 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 6000 4100 50  0001 C CNN
+F 3 "~" H 6000 4100 50  0001 C CNN
+	1    6000 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61E905BA
+P 6200 4700
+F 0 "SW?" H 6200 4985 50  0000 C CNN
+F 1 "SW_Push" H 6200 4894 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 6200 4900 50  0001 C CNN
+F 3 "~" H 6200 4900 50  0001 C CNN
+	1    6200 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61E905C0
+P 6000 4850
+F 0 "D?" V 6046 4770 50  0000 R CNN
+F 1 "D" V 5955 4770 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 6000 4850 50  0001 C CNN
+F 3 "~" H 6000 4850 50  0001 C CNN
+	1    6000 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61E905C6
+P 6200 5450
+F 0 "SW?" H 6200 5735 50  0000 C CNN
+F 1 "SW_Push" H 6200 5644 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 6200 5650 50  0001 C CNN
+F 3 "~" H 6200 5650 50  0001 C CNN
+	1    6200 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61E905CC
+P 6000 5600
+F 0 "D?" V 6046 5520 50  0000 R CNN
+F 1 "D" V 5955 5520 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 6000 5600 50  0001 C CNN
+F 3 "~" H 6000 5600 50  0001 C CNN
+	1    6000 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61E905D2
+P 6200 6200
+F 0 "SW?" H 6200 6485 50  0000 C CNN
+F 1 "SW_Push" H 6200 6394 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 6200 6400 50  0001 C CNN
+F 3 "~" H 6200 6400 50  0001 C CNN
+	1    6200 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61E905D8
+P 6000 6350
+F 0 "D?" V 6046 6270 50  0000 R CNN
+F 1 "D" V 5955 6270 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 6000 6350 50  0001 C CNN
+F 3 "~" H 6000 6350 50  0001 C CNN
+	1    6000 6350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61E905DE
+P 6200 6950
+F 0 "SW?" H 6200 7235 50  0000 C CNN
+F 1 "SW_Push" H 6200 7144 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 6200 7150 50  0001 C CNN
+F 3 "~" H 6200 7150 50  0001 C CNN
+	1    6200 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61E905E4
+P 6000 7100
+F 0 "D?" V 6046 7020 50  0000 R CNN
+F 1 "D" V 5955 7020 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 6000 7100 50  0001 C CNN
+F 3 "~" H 6000 7100 50  0001 C CNN
+	1    6000 7100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6000 3500 6750 3500
+Wire Wire Line
+	6000 4250 6750 4250
+Wire Wire Line
+	6000 5000 6750 5000
+Wire Wire Line
+	6000 6500 6750 6500
+Wire Wire Line
+	6000 7250 6750 7250
+Connection ~ 6000 3500
+Connection ~ 6000 4250
+Connection ~ 6000 5000
+Wire Wire Line
+	6000 5750 6750 5750
+Connection ~ 6000 5750
+Connection ~ 6000 6500
+Connection ~ 6000 7250
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61E94134
+P 6950 3200
+F 0 "SW?" H 6950 3485 50  0000 C CNN
+F 1 "SW_Push" H 6950 3394 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 6950 3400 50  0001 C CNN
+F 3 "~" H 6950 3400 50  0001 C CNN
+	1    6950 3200
+	1    0    0    -1  
+$EndComp
+Text HLabel 7150 7500 3    50   Input ~ 0
+col4
+Wire Wire Line
+	7150 3200 7150 3950
+$Comp
+L Device:D D?
+U 1 1 61E9413C
+P 6750 3350
+F 0 "D?" V 6796 3270 50  0000 R CNN
+F 1 "D" V 6705 3270 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 6750 3350 50  0001 C CNN
+F 3 "~" H 6750 3350 50  0001 C CNN
+	1    6750 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61E94142
+P 6950 3950
+F 0 "SW?" H 6950 4235 50  0000 C CNN
+F 1 "SW_Push" H 6950 4144 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 6950 4150 50  0001 C CNN
+F 3 "~" H 6950 4150 50  0001 C CNN
+	1    6950 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61E94148
+P 6750 4100
+F 0 "D?" V 6796 4020 50  0000 R CNN
+F 1 "D" V 6705 4020 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 6750 4100 50  0001 C CNN
+F 3 "~" H 6750 4100 50  0001 C CNN
+	1    6750 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61E9414E
+P 6950 4700
+F 0 "SW?" H 6950 4985 50  0000 C CNN
+F 1 "SW_Push" H 6950 4894 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 6950 4900 50  0001 C CNN
+F 3 "~" H 6950 4900 50  0001 C CNN
+	1    6950 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61E94154
+P 6750 4850
+F 0 "D?" V 6796 4770 50  0000 R CNN
+F 1 "D" V 6705 4770 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 6750 4850 50  0001 C CNN
+F 3 "~" H 6750 4850 50  0001 C CNN
+	1    6750 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61E9415A
+P 6950 5450
+F 0 "SW?" H 6950 5735 50  0000 C CNN
+F 1 "SW_Push" H 6950 5644 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 6950 5650 50  0001 C CNN
+F 3 "~" H 6950 5650 50  0001 C CNN
+	1    6950 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61E94160
+P 6750 5600
+F 0 "D?" V 6796 5520 50  0000 R CNN
+F 1 "D" V 6705 5520 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 6750 5600 50  0001 C CNN
+F 3 "~" H 6750 5600 50  0001 C CNN
+	1    6750 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61E94166
+P 6950 6200
+F 0 "SW?" H 6950 6485 50  0000 C CNN
+F 1 "SW_Push" H 6950 6394 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 6950 6400 50  0001 C CNN
+F 3 "~" H 6950 6400 50  0001 C CNN
+	1    6950 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61E9416C
+P 6750 6350
+F 0 "D?" V 6796 6270 50  0000 R CNN
+F 1 "D" V 6705 6270 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 6750 6350 50  0001 C CNN
+F 3 "~" H 6750 6350 50  0001 C CNN
+	1    6750 6350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61E94172
+P 6950 6950
+F 0 "SW?" H 6950 7235 50  0000 C CNN
+F 1 "SW_Push" H 6950 7144 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 6950 7150 50  0001 C CNN
+F 3 "~" H 6950 7150 50  0001 C CNN
+	1    6950 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61E94178
+P 6750 7100
+F 0 "D?" V 6796 7020 50  0000 R CNN
+F 1 "D" V 6705 7020 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 6750 7100 50  0001 C CNN
+F 3 "~" H 6750 7100 50  0001 C CNN
+	1    6750 7100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6750 3500 7500 3500
+Wire Wire Line
+	6750 4250 7500 4250
+Wire Wire Line
+	6750 5000 7500 5000
+Wire Wire Line
+	6750 6500 7500 6500
+Wire Wire Line
+	6750 7250 7500 7250
+Connection ~ 6750 3500
+Connection ~ 6750 4250
+Connection ~ 6750 5000
+Wire Wire Line
+	6750 5750 7500 5750
+Connection ~ 6750 5750
+Connection ~ 6750 6500
+Connection ~ 6750 7250
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61E98FB3
+P 7700 3200
+F 0 "SW?" H 7700 3485 50  0000 C CNN
+F 1 "SW_Push" H 7700 3394 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 7700 3400 50  0001 C CNN
+F 3 "~" H 7700 3400 50  0001 C CNN
+	1    7700 3200
+	1    0    0    -1  
+$EndComp
+Text HLabel 7900 7500 3    50   Input ~ 0
+col5
+Wire Wire Line
+	7900 3200 7900 3950
+$Comp
+L Device:D D?
+U 1 1 61E98FBB
+P 7500 3350
+F 0 "D?" V 7546 3270 50  0000 R CNN
+F 1 "D" V 7455 3270 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 7500 3350 50  0001 C CNN
+F 3 "~" H 7500 3350 50  0001 C CNN
+	1    7500 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61E98FC1
+P 7700 3950
+F 0 "SW?" H 7700 4235 50  0000 C CNN
+F 1 "SW_Push" H 7700 4144 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 7700 4150 50  0001 C CNN
+F 3 "~" H 7700 4150 50  0001 C CNN
+	1    7700 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61E98FC7
+P 7500 4100
+F 0 "D?" V 7546 4020 50  0000 R CNN
+F 1 "D" V 7455 4020 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 7500 4100 50  0001 C CNN
+F 3 "~" H 7500 4100 50  0001 C CNN
+	1    7500 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61E98FCD
+P 7700 4700
+F 0 "SW?" H 7700 4985 50  0000 C CNN
+F 1 "SW_Push" H 7700 4894 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 7700 4900 50  0001 C CNN
+F 3 "~" H 7700 4900 50  0001 C CNN
+	1    7700 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61E98FD3
+P 7500 4850
+F 0 "D?" V 7546 4770 50  0000 R CNN
+F 1 "D" V 7455 4770 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 7500 4850 50  0001 C CNN
+F 3 "~" H 7500 4850 50  0001 C CNN
+	1    7500 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61E98FD9
+P 7700 5450
+F 0 "SW?" H 7700 5735 50  0000 C CNN
+F 1 "SW_Push" H 7700 5644 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 7700 5650 50  0001 C CNN
+F 3 "~" H 7700 5650 50  0001 C CNN
+	1    7700 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61E98FDF
+P 7500 5600
+F 0 "D?" V 7546 5520 50  0000 R CNN
+F 1 "D" V 7455 5520 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 7500 5600 50  0001 C CNN
+F 3 "~" H 7500 5600 50  0001 C CNN
+	1    7500 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61E98FE5
+P 7700 6200
+F 0 "SW?" H 7700 6485 50  0000 C CNN
+F 1 "SW_Push" H 7700 6394 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 7700 6400 50  0001 C CNN
+F 3 "~" H 7700 6400 50  0001 C CNN
+	1    7700 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61E98FEB
+P 7500 6350
+F 0 "D?" V 7546 6270 50  0000 R CNN
+F 1 "D" V 7455 6270 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 7500 6350 50  0001 C CNN
+F 3 "~" H 7500 6350 50  0001 C CNN
+	1    7500 6350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61E98FF1
+P 7700 6950
+F 0 "SW?" H 7700 7235 50  0000 C CNN
+F 1 "SW_Push" H 7700 7144 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 7700 7150 50  0001 C CNN
+F 3 "~" H 7700 7150 50  0001 C CNN
+	1    7700 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61E98FF7
+P 7500 7100
+F 0 "D?" V 7546 7020 50  0000 R CNN
+F 1 "D" V 7455 7020 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 7500 7100 50  0001 C CNN
+F 3 "~" H 7500 7100 50  0001 C CNN
+	1    7500 7100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7500 3500 8250 3500
+Wire Wire Line
+	7500 4250 8250 4250
+Wire Wire Line
+	7500 5000 8250 5000
+Wire Wire Line
+	7500 6500 8250 6500
+Wire Wire Line
+	7500 7250 8250 7250
+Connection ~ 7500 3500
+Connection ~ 7500 4250
+Connection ~ 7500 5000
+Wire Wire Line
+	7500 5750 8250 5750
+Connection ~ 7500 5750
+Connection ~ 7500 6500
+Connection ~ 7500 7250
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61E9E804
+P 8450 3200
+F 0 "SW?" H 8450 3485 50  0000 C CNN
+F 1 "SW_Push" H 8450 3394 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 8450 3400 50  0001 C CNN
+F 3 "~" H 8450 3400 50  0001 C CNN
+	1    8450 3200
+	1    0    0    -1  
+$EndComp
+Text HLabel 8650 7500 3    50   Input ~ 0
+col6
+Wire Wire Line
+	8650 3200 8650 3950
+$Comp
+L Device:D D?
+U 1 1 61E9E80C
+P 8250 3350
+F 0 "D?" V 8296 3270 50  0000 R CNN
+F 1 "D" V 8205 3270 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 8250 3350 50  0001 C CNN
+F 3 "~" H 8250 3350 50  0001 C CNN
+	1    8250 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61E9E812
+P 8450 3950
+F 0 "SW?" H 8450 4235 50  0000 C CNN
+F 1 "SW_Push" H 8450 4144 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 8450 4150 50  0001 C CNN
+F 3 "~" H 8450 4150 50  0001 C CNN
+	1    8450 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61E9E818
+P 8250 4100
+F 0 "D?" V 8296 4020 50  0000 R CNN
+F 1 "D" V 8205 4020 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 8250 4100 50  0001 C CNN
+F 3 "~" H 8250 4100 50  0001 C CNN
+	1    8250 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61E9E81E
+P 8450 4700
+F 0 "SW?" H 8450 4985 50  0000 C CNN
+F 1 "SW_Push" H 8450 4894 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 8450 4900 50  0001 C CNN
+F 3 "~" H 8450 4900 50  0001 C CNN
+	1    8450 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61E9E824
+P 8250 4850
+F 0 "D?" V 8296 4770 50  0000 R CNN
+F 1 "D" V 8205 4770 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 8250 4850 50  0001 C CNN
+F 3 "~" H 8250 4850 50  0001 C CNN
+	1    8250 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61E9E82A
+P 8450 5450
+F 0 "SW?" H 8450 5735 50  0000 C CNN
+F 1 "SW_Push" H 8450 5644 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 8450 5650 50  0001 C CNN
+F 3 "~" H 8450 5650 50  0001 C CNN
+	1    8450 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61E9E830
+P 8250 5600
+F 0 "D?" V 8296 5520 50  0000 R CNN
+F 1 "D" V 8205 5520 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 8250 5600 50  0001 C CNN
+F 3 "~" H 8250 5600 50  0001 C CNN
+	1    8250 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61E9E836
+P 8450 6200
+F 0 "SW?" H 8450 6485 50  0000 C CNN
+F 1 "SW_Push" H 8450 6394 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 8450 6400 50  0001 C CNN
+F 3 "~" H 8450 6400 50  0001 C CNN
+	1    8450 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61E9E83C
+P 8250 6350
+F 0 "D?" V 8296 6270 50  0000 R CNN
+F 1 "D" V 8205 6270 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 8250 6350 50  0001 C CNN
+F 3 "~" H 8250 6350 50  0001 C CNN
+	1    8250 6350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61E9E842
+P 8450 6950
+F 0 "SW?" H 8450 7235 50  0000 C CNN
+F 1 "SW_Push" H 8450 7144 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 8450 7150 50  0001 C CNN
+F 3 "~" H 8450 7150 50  0001 C CNN
+	1    8450 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61E9E848
+P 8250 7100
+F 0 "D?" V 8296 7020 50  0000 R CNN
+F 1 "D" V 8205 7020 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 8250 7100 50  0001 C CNN
+F 3 "~" H 8250 7100 50  0001 C CNN
+	1    8250 7100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8250 3500 9000 3500
+Wire Wire Line
+	8250 4250 9000 4250
+Wire Wire Line
+	8250 5000 9000 5000
+Wire Wire Line
+	8250 6500 9000 6500
+Wire Wire Line
+	8250 7250 9000 7250
+Connection ~ 8250 3500
+Connection ~ 8250 4250
+Connection ~ 8250 5000
+Wire Wire Line
+	8250 5750 9000 5750
+Connection ~ 8250 5750
+Connection ~ 8250 6500
+Connection ~ 8250 7250
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61EA37C2
+P 9200 3200
+F 0 "SW?" H 9200 3485 50  0000 C CNN
+F 1 "SW_Push" H 9200 3394 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 9200 3400 50  0001 C CNN
+F 3 "~" H 9200 3400 50  0001 C CNN
+	1    9200 3200
+	1    0    0    -1  
+$EndComp
+Text HLabel 9400 7500 3    50   Input ~ 0
+col7
+Wire Wire Line
+	9400 3200 9400 3950
+$Comp
+L Device:D D?
+U 1 1 61EA37CA
+P 9000 3350
+F 0 "D?" V 9046 3270 50  0000 R CNN
+F 1 "D" V 8955 3270 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 9000 3350 50  0001 C CNN
+F 3 "~" H 9000 3350 50  0001 C CNN
+	1    9000 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61EA37D0
+P 9200 3950
+F 0 "SW?" H 9200 4235 50  0000 C CNN
+F 1 "SW_Push" H 9200 4144 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 9200 4150 50  0001 C CNN
+F 3 "~" H 9200 4150 50  0001 C CNN
+	1    9200 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61EA37D6
+P 9000 4100
+F 0 "D?" V 9046 4020 50  0000 R CNN
+F 1 "D" V 8955 4020 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 9000 4100 50  0001 C CNN
+F 3 "~" H 9000 4100 50  0001 C CNN
+	1    9000 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61EA37DC
+P 9200 4700
+F 0 "SW?" H 9200 4985 50  0000 C CNN
+F 1 "SW_Push" H 9200 4894 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 9200 4900 50  0001 C CNN
+F 3 "~" H 9200 4900 50  0001 C CNN
+	1    9200 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61EA37E2
+P 9000 4850
+F 0 "D?" V 9046 4770 50  0000 R CNN
+F 1 "D" V 8955 4770 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 9000 4850 50  0001 C CNN
+F 3 "~" H 9000 4850 50  0001 C CNN
+	1    9000 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61EA37E8
+P 9200 5450
+F 0 "SW?" H 9200 5735 50  0000 C CNN
+F 1 "SW_Push" H 9200 5644 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 9200 5650 50  0001 C CNN
+F 3 "~" H 9200 5650 50  0001 C CNN
+	1    9200 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61EA37EE
+P 9000 5600
+F 0 "D?" V 9046 5520 50  0000 R CNN
+F 1 "D" V 8955 5520 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 9000 5600 50  0001 C CNN
+F 3 "~" H 9000 5600 50  0001 C CNN
+	1    9000 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61EA37F4
+P 9200 6200
+F 0 "SW?" H 9200 6485 50  0000 C CNN
+F 1 "SW_Push" H 9200 6394 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 9200 6400 50  0001 C CNN
+F 3 "~" H 9200 6400 50  0001 C CNN
+	1    9200 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61EA37FA
+P 9000 6350
+F 0 "D?" V 9046 6270 50  0000 R CNN
+F 1 "D" V 8955 6270 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 9000 6350 50  0001 C CNN
+F 3 "~" H 9000 6350 50  0001 C CNN
+	1    9000 6350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61EA3800
+P 9200 6950
+F 0 "SW?" H 9200 7235 50  0000 C CNN
+F 1 "SW_Push" H 9200 7144 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 9200 7150 50  0001 C CNN
+F 3 "~" H 9200 7150 50  0001 C CNN
+	1    9200 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61EA3806
+P 9000 7100
+F 0 "D?" V 9046 7020 50  0000 R CNN
+F 1 "D" V 8955 7020 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 9000 7100 50  0001 C CNN
+F 3 "~" H 9000 7100 50  0001 C CNN
+	1    9000 7100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9000 3500 9750 3500
+Wire Wire Line
+	9000 4250 9750 4250
+Wire Wire Line
+	9000 5000 9750 5000
+Wire Wire Line
+	9000 6500 9750 6500
+Wire Wire Line
+	9000 7250 9750 7250
+Connection ~ 9000 3500
+Connection ~ 9000 4250
+Connection ~ 9000 5000
+Wire Wire Line
+	9000 5750 9750 5750
+Connection ~ 9000 5750
+Connection ~ 9000 6500
+Connection ~ 9000 7250
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61EA9186
+P 9950 3200
+F 0 "SW?" H 9950 3485 50  0000 C CNN
+F 1 "SW_Push" H 9950 3394 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 9950 3400 50  0001 C CNN
+F 3 "~" H 9950 3400 50  0001 C CNN
+	1    9950 3200
+	1    0    0    -1  
+$EndComp
+Text HLabel 10150 7500 3    50   Input ~ 0
+col8
+Wire Wire Line
+	10150 3200 10150 3950
+$Comp
+L Device:D D?
+U 1 1 61EA918E
+P 9750 3350
+F 0 "D?" V 9796 3270 50  0000 R CNN
+F 1 "D" V 9705 3270 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 9750 3350 50  0001 C CNN
+F 3 "~" H 9750 3350 50  0001 C CNN
+	1    9750 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61EA9194
+P 9950 3950
+F 0 "SW?" H 9950 4235 50  0000 C CNN
+F 1 "SW_Push" H 9950 4144 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 9950 4150 50  0001 C CNN
+F 3 "~" H 9950 4150 50  0001 C CNN
+	1    9950 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61EA919A
+P 9750 4100
+F 0 "D?" V 9796 4020 50  0000 R CNN
+F 1 "D" V 9705 4020 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 9750 4100 50  0001 C CNN
+F 3 "~" H 9750 4100 50  0001 C CNN
+	1    9750 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61EA91A0
+P 9950 4700
+F 0 "SW?" H 9950 4985 50  0000 C CNN
+F 1 "SW_Push" H 9950 4894 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 9950 4900 50  0001 C CNN
+F 3 "~" H 9950 4900 50  0001 C CNN
+	1    9950 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61EA91A6
+P 9750 4850
+F 0 "D?" V 9796 4770 50  0000 R CNN
+F 1 "D" V 9705 4770 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 9750 4850 50  0001 C CNN
+F 3 "~" H 9750 4850 50  0001 C CNN
+	1    9750 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61EA91AC
+P 9950 5450
+F 0 "SW?" H 9950 5735 50  0000 C CNN
+F 1 "SW_Push" H 9950 5644 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 9950 5650 50  0001 C CNN
+F 3 "~" H 9950 5650 50  0001 C CNN
+	1    9950 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61EA91B2
+P 9750 5600
+F 0 "D?" V 9796 5520 50  0000 R CNN
+F 1 "D" V 9705 5520 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 9750 5600 50  0001 C CNN
+F 3 "~" H 9750 5600 50  0001 C CNN
+	1    9750 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61EA91B8
+P 9950 6200
+F 0 "SW?" H 9950 6485 50  0000 C CNN
+F 1 "SW_Push" H 9950 6394 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 9950 6400 50  0001 C CNN
+F 3 "~" H 9950 6400 50  0001 C CNN
+	1    9950 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61EA91BE
+P 9750 6350
+F 0 "D?" V 9796 6270 50  0000 R CNN
+F 1 "D" V 9705 6270 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 9750 6350 50  0001 C CNN
+F 3 "~" H 9750 6350 50  0001 C CNN
+	1    9750 6350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61EA91C4
+P 9950 6950
+F 0 "SW?" H 9950 7235 50  0000 C CNN
+F 1 "SW_Push" H 9950 7144 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 9950 7150 50  0001 C CNN
+F 3 "~" H 9950 7150 50  0001 C CNN
+	1    9950 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61EA91CA
+P 9750 7100
+F 0 "D?" V 9796 7020 50  0000 R CNN
+F 1 "D" V 9705 7020 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 9750 7100 50  0001 C CNN
+F 3 "~" H 9750 7100 50  0001 C CNN
+	1    9750 7100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9750 3500 10500 3500
+Wire Wire Line
+	9750 4250 10500 4250
+Wire Wire Line
+	9750 5000 10500 5000
+Wire Wire Line
+	9750 6500 10500 6500
+Wire Wire Line
+	9750 7250 10500 7250
+Connection ~ 9750 3500
+Connection ~ 9750 4250
+Connection ~ 9750 5000
+Wire Wire Line
+	9750 5750 10500 5750
+Connection ~ 9750 5750
+Connection ~ 9750 6500
+Connection ~ 9750 7250
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61EAF6F5
+P 10700 3200
+F 0 "SW?" H 10700 3485 50  0000 C CNN
+F 1 "SW_Push" H 10700 3394 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 10700 3400 50  0001 C CNN
+F 3 "~" H 10700 3400 50  0001 C CNN
+	1    10700 3200
+	1    0    0    -1  
+$EndComp
+Text HLabel 10900 7500 3    50   Input ~ 0
+col9
+Wire Wire Line
+	10900 3200 10900 3950
+$Comp
+L Device:D D?
+U 1 1 61EAF6FD
+P 10500 3350
+F 0 "D?" V 10546 3270 50  0000 R CNN
+F 1 "D" V 10455 3270 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 10500 3350 50  0001 C CNN
+F 3 "~" H 10500 3350 50  0001 C CNN
+	1    10500 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61EAF703
+P 10700 3950
+F 0 "SW?" H 10700 4235 50  0000 C CNN
+F 1 "SW_Push" H 10700 4144 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 10700 4150 50  0001 C CNN
+F 3 "~" H 10700 4150 50  0001 C CNN
+	1    10700 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61EAF709
+P 10500 4100
+F 0 "D?" V 10546 4020 50  0000 R CNN
+F 1 "D" V 10455 4020 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 10500 4100 50  0001 C CNN
+F 3 "~" H 10500 4100 50  0001 C CNN
+	1    10500 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61EAF70F
+P 10700 4700
+F 0 "SW?" H 10700 4985 50  0000 C CNN
+F 1 "SW_Push" H 10700 4894 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 10700 4900 50  0001 C CNN
+F 3 "~" H 10700 4900 50  0001 C CNN
+	1    10700 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61EAF715
+P 10500 4850
+F 0 "D?" V 10546 4770 50  0000 R CNN
+F 1 "D" V 10455 4770 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 10500 4850 50  0001 C CNN
+F 3 "~" H 10500 4850 50  0001 C CNN
+	1    10500 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61EAF71B
+P 10700 5450
+F 0 "SW?" H 10700 5735 50  0000 C CNN
+F 1 "SW_Push" H 10700 5644 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 10700 5650 50  0001 C CNN
+F 3 "~" H 10700 5650 50  0001 C CNN
+	1    10700 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61EAF721
+P 10500 5600
+F 0 "D?" V 10546 5520 50  0000 R CNN
+F 1 "D" V 10455 5520 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 10500 5600 50  0001 C CNN
+F 3 "~" H 10500 5600 50  0001 C CNN
+	1    10500 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61EAF727
+P 10700 6200
+F 0 "SW?" H 10700 6485 50  0000 C CNN
+F 1 "SW_Push" H 10700 6394 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 10700 6400 50  0001 C CNN
+F 3 "~" H 10700 6400 50  0001 C CNN
+	1    10700 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61EAF72D
+P 10500 6350
+F 0 "D?" V 10546 6270 50  0000 R CNN
+F 1 "D" V 10455 6270 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 10500 6350 50  0001 C CNN
+F 3 "~" H 10500 6350 50  0001 C CNN
+	1    10500 6350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61EAF733
+P 10700 6950
+F 0 "SW?" H 10700 7235 50  0000 C CNN
+F 1 "SW_Push" H 10700 7144 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 10700 7150 50  0001 C CNN
+F 3 "~" H 10700 7150 50  0001 C CNN
+	1    10700 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61EAF739
+P 10500 7100
+F 0 "D?" V 10546 7020 50  0000 R CNN
+F 1 "D" V 10455 7020 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 10500 7100 50  0001 C CNN
+F 3 "~" H 10500 7100 50  0001 C CNN
+	1    10500 7100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10500 3500 11250 3500
+Wire Wire Line
+	10500 4250 11250 4250
+Wire Wire Line
+	10500 5000 11250 5000
+Wire Wire Line
+	10500 6500 11250 6500
+Wire Wire Line
+	10500 7250 11250 7250
+Connection ~ 10500 3500
+Connection ~ 10500 4250
+Connection ~ 10500 5000
+Wire Wire Line
+	10500 5750 11250 5750
+Connection ~ 10500 5750
+Connection ~ 10500 6500
+Connection ~ 10500 7250
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61EB66A8
+P 11450 3200
+F 0 "SW?" H 11450 3485 50  0000 C CNN
+F 1 "SW_Push" H 11450 3394 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 11450 3400 50  0001 C CNN
+F 3 "~" H 11450 3400 50  0001 C CNN
+	1    11450 3200
+	1    0    0    -1  
+$EndComp
+Text HLabel 11650 7500 3    50   Input ~ 0
+col10
+Wire Wire Line
+	11650 3200 11650 3950
+$Comp
+L Device:D D?
+U 1 1 61EB66B0
+P 11250 3350
+F 0 "D?" V 11296 3270 50  0000 R CNN
+F 1 "D" V 11205 3270 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 11250 3350 50  0001 C CNN
+F 3 "~" H 11250 3350 50  0001 C CNN
+	1    11250 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61EB66B6
+P 11450 3950
+F 0 "SW?" H 11450 4235 50  0000 C CNN
+F 1 "SW_Push" H 11450 4144 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 11450 4150 50  0001 C CNN
+F 3 "~" H 11450 4150 50  0001 C CNN
+	1    11450 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61EB66BC
+P 11250 4100
+F 0 "D?" V 11296 4020 50  0000 R CNN
+F 1 "D" V 11205 4020 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 11250 4100 50  0001 C CNN
+F 3 "~" H 11250 4100 50  0001 C CNN
+	1    11250 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61EB66C2
+P 11450 4700
+F 0 "SW?" H 11450 4985 50  0000 C CNN
+F 1 "SW_Push" H 11450 4894 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 11450 4900 50  0001 C CNN
+F 3 "~" H 11450 4900 50  0001 C CNN
+	1    11450 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61EB66C8
+P 11250 4850
+F 0 "D?" V 11296 4770 50  0000 R CNN
+F 1 "D" V 11205 4770 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 11250 4850 50  0001 C CNN
+F 3 "~" H 11250 4850 50  0001 C CNN
+	1    11250 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61EB66CE
+P 11450 5450
+F 0 "SW?" H 11450 5735 50  0000 C CNN
+F 1 "SW_Push" H 11450 5644 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 11450 5650 50  0001 C CNN
+F 3 "~" H 11450 5650 50  0001 C CNN
+	1    11450 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61EB66D4
+P 11250 5600
+F 0 "D?" V 11296 5520 50  0000 R CNN
+F 1 "D" V 11205 5520 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 11250 5600 50  0001 C CNN
+F 3 "~" H 11250 5600 50  0001 C CNN
+	1    11250 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61EB66DA
+P 11450 6200
+F 0 "SW?" H 11450 6485 50  0000 C CNN
+F 1 "SW_Push" H 11450 6394 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 11450 6400 50  0001 C CNN
+F 3 "~" H 11450 6400 50  0001 C CNN
+	1    11450 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61EB66E0
+P 11250 6350
+F 0 "D?" V 11296 6270 50  0000 R CNN
+F 1 "D" V 11205 6270 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 11250 6350 50  0001 C CNN
+F 3 "~" H 11250 6350 50  0001 C CNN
+	1    11250 6350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61EB66E6
+P 11450 6950
+F 0 "SW?" H 11450 7235 50  0000 C CNN
+F 1 "SW_Push" H 11450 7144 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 11450 7150 50  0001 C CNN
+F 3 "~" H 11450 7150 50  0001 C CNN
+	1    11450 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61EB66EC
+P 11250 7100
+F 0 "D?" V 11296 7020 50  0000 R CNN
+F 1 "D" V 11205 7020 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 11250 7100 50  0001 C CNN
+F 3 "~" H 11250 7100 50  0001 C CNN
+	1    11250 7100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	11250 3500 12000 3500
+Wire Wire Line
+	11250 4250 12000 4250
+Wire Wire Line
+	11250 5000 12000 5000
+Wire Wire Line
+	11250 6500 12000 6500
+Wire Wire Line
+	11250 7250 12000 7250
+Connection ~ 11250 3500
+Connection ~ 11250 4250
+Connection ~ 11250 5000
+Wire Wire Line
+	11250 5750 12000 5750
+Connection ~ 11250 5750
+Connection ~ 11250 6500
+Connection ~ 11250 7250
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61EBBD8C
+P 12200 3200
+F 0 "SW?" H 12200 3485 50  0000 C CNN
+F 1 "SW_Push" H 12200 3394 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 12200 3400 50  0001 C CNN
+F 3 "~" H 12200 3400 50  0001 C CNN
+	1    12200 3200
+	1    0    0    -1  
+$EndComp
+Text HLabel 12400 7500 3    50   Input ~ 0
+col11
+Wire Wire Line
+	12400 3200 12400 3950
+$Comp
+L Device:D D?
+U 1 1 61EBBD94
+P 12000 3350
+F 0 "D?" V 12046 3270 50  0000 R CNN
+F 1 "D" V 11955 3270 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 12000 3350 50  0001 C CNN
+F 3 "~" H 12000 3350 50  0001 C CNN
+	1    12000 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61EBBD9A
+P 12200 3950
+F 0 "SW?" H 12200 4235 50  0000 C CNN
+F 1 "SW_Push" H 12200 4144 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 12200 4150 50  0001 C CNN
+F 3 "~" H 12200 4150 50  0001 C CNN
+	1    12200 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61EBBDA0
+P 12000 4100
+F 0 "D?" V 12046 4020 50  0000 R CNN
+F 1 "D" V 11955 4020 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 12000 4100 50  0001 C CNN
+F 3 "~" H 12000 4100 50  0001 C CNN
+	1    12000 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61EBBDA6
+P 12200 4700
+F 0 "SW?" H 12200 4985 50  0000 C CNN
+F 1 "SW_Push" H 12200 4894 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 12200 4900 50  0001 C CNN
+F 3 "~" H 12200 4900 50  0001 C CNN
+	1    12200 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61EBBDAC
+P 12000 4850
+F 0 "D?" V 12046 4770 50  0000 R CNN
+F 1 "D" V 11955 4770 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 12000 4850 50  0001 C CNN
+F 3 "~" H 12000 4850 50  0001 C CNN
+	1    12000 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61EBBDB2
+P 12200 5450
+F 0 "SW?" H 12200 5735 50  0000 C CNN
+F 1 "SW_Push" H 12200 5644 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 12200 5650 50  0001 C CNN
+F 3 "~" H 12200 5650 50  0001 C CNN
+	1    12200 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61EBBDB8
+P 12000 5600
+F 0 "D?" V 12046 5520 50  0000 R CNN
+F 1 "D" V 11955 5520 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 12000 5600 50  0001 C CNN
+F 3 "~" H 12000 5600 50  0001 C CNN
+	1    12000 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61EBBDBE
+P 12200 6200
+F 0 "SW?" H 12200 6485 50  0000 C CNN
+F 1 "SW_Push" H 12200 6394 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 12200 6400 50  0001 C CNN
+F 3 "~" H 12200 6400 50  0001 C CNN
+	1    12200 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61EBBDC4
+P 12000 6350
+F 0 "D?" V 12046 6270 50  0000 R CNN
+F 1 "D" V 11955 6270 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 12000 6350 50  0001 C CNN
+F 3 "~" H 12000 6350 50  0001 C CNN
+	1    12000 6350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61EBBDCA
+P 12200 6950
+F 0 "SW?" H 12200 7235 50  0000 C CNN
+F 1 "SW_Push" H 12200 7144 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 12200 7150 50  0001 C CNN
+F 3 "~" H 12200 7150 50  0001 C CNN
+	1    12200 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61EBBDD0
+P 12000 7100
+F 0 "D?" V 12046 7020 50  0000 R CNN
+F 1 "D" V 11955 7020 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 12000 7100 50  0001 C CNN
+F 3 "~" H 12000 7100 50  0001 C CNN
+	1    12000 7100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12000 3500 12750 3500
+Wire Wire Line
+	12000 4250 12750 4250
+Wire Wire Line
+	12000 5000 12750 5000
+Wire Wire Line
+	12000 6500 12750 6500
+Wire Wire Line
+	12000 7250 12750 7250
+Connection ~ 12000 3500
+Connection ~ 12000 4250
+Connection ~ 12000 5000
+Wire Wire Line
+	12000 5750 12750 5750
+Connection ~ 12000 5750
+Connection ~ 12000 6500
+Connection ~ 12000 7250
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61EBF9F4
+P 12950 3200
+F 0 "SW?" H 12950 3485 50  0000 C CNN
+F 1 "SW_Push" H 12950 3394 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 12950 3400 50  0001 C CNN
+F 3 "~" H 12950 3400 50  0001 C CNN
+	1    12950 3200
+	1    0    0    -1  
+$EndComp
+Text HLabel 13150 7500 3    50   Input ~ 0
+col12
+Wire Wire Line
+	13150 3200 13150 3950
+$Comp
+L Device:D D?
+U 1 1 61EBF9FC
+P 12750 3350
+F 0 "D?" V 12796 3270 50  0000 R CNN
+F 1 "D" V 12705 3270 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 12750 3350 50  0001 C CNN
+F 3 "~" H 12750 3350 50  0001 C CNN
+	1    12750 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61EBFA02
+P 12950 3950
+F 0 "SW?" H 12950 4235 50  0000 C CNN
+F 1 "SW_Push" H 12950 4144 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 12950 4150 50  0001 C CNN
+F 3 "~" H 12950 4150 50  0001 C CNN
+	1    12950 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61EBFA08
+P 12750 4100
+F 0 "D?" V 12796 4020 50  0000 R CNN
+F 1 "D" V 12705 4020 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 12750 4100 50  0001 C CNN
+F 3 "~" H 12750 4100 50  0001 C CNN
+	1    12750 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61EBFA0E
+P 12950 4700
+F 0 "SW?" H 12950 4985 50  0000 C CNN
+F 1 "SW_Push" H 12950 4894 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 12950 4900 50  0001 C CNN
+F 3 "~" H 12950 4900 50  0001 C CNN
+	1    12950 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61EBFA14
+P 12750 4850
+F 0 "D?" V 12796 4770 50  0000 R CNN
+F 1 "D" V 12705 4770 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 12750 4850 50  0001 C CNN
+F 3 "~" H 12750 4850 50  0001 C CNN
+	1    12750 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61EBFA1A
+P 12950 5450
+F 0 "SW?" H 12950 5735 50  0000 C CNN
+F 1 "SW_Push" H 12950 5644 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 12950 5650 50  0001 C CNN
+F 3 "~" H 12950 5650 50  0001 C CNN
+	1    12950 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61EBFA20
+P 12750 5600
+F 0 "D?" V 12796 5520 50  0000 R CNN
+F 1 "D" V 12705 5520 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 12750 5600 50  0001 C CNN
+F 3 "~" H 12750 5600 50  0001 C CNN
+	1    12750 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61EBFA26
+P 12950 6200
+F 0 "SW?" H 12950 6485 50  0000 C CNN
+F 1 "SW_Push" H 12950 6394 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 12950 6400 50  0001 C CNN
+F 3 "~" H 12950 6400 50  0001 C CNN
+	1    12950 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61EBFA2C
+P 12750 6350
+F 0 "D?" V 12796 6270 50  0000 R CNN
+F 1 "D" V 12705 6270 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 12750 6350 50  0001 C CNN
+F 3 "~" H 12750 6350 50  0001 C CNN
+	1    12750 6350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61EBFA32
+P 12950 6950
+F 0 "SW?" H 12950 7235 50  0000 C CNN
+F 1 "SW_Push" H 12950 7144 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 12950 7150 50  0001 C CNN
+F 3 "~" H 12950 7150 50  0001 C CNN
+	1    12950 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61EBFA38
+P 12750 7100
+F 0 "D?" V 12796 7020 50  0000 R CNN
+F 1 "D" V 12705 7020 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 12750 7100 50  0001 C CNN
+F 3 "~" H 12750 7100 50  0001 C CNN
+	1    12750 7100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12750 3500 13500 3500
+Wire Wire Line
+	12750 4250 13500 4250
+Wire Wire Line
+	12750 5000 13500 5000
+Wire Wire Line
+	12750 6500 13500 6500
+Wire Wire Line
+	12750 7250 13500 7250
+Connection ~ 12750 3500
+Connection ~ 12750 4250
+Connection ~ 12750 5000
+Wire Wire Line
+	12750 5750 13500 5750
+Connection ~ 12750 5750
+Connection ~ 12750 6500
+Connection ~ 12750 7250
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61ECDEEF
+P 13700 3200
+F 0 "SW?" H 13700 3485 50  0000 C CNN
+F 1 "SW_Push" H 13700 3394 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 13700 3400 50  0001 C CNN
+F 3 "~" H 13700 3400 50  0001 C CNN
+	1    13700 3200
+	1    0    0    -1  
+$EndComp
+Text HLabel 13900 7500 3    50   Input ~ 0
+col13
+Wire Wire Line
+	13900 3200 13900 3950
+$Comp
+L Device:D D?
+U 1 1 61ECDEF7
+P 13500 3350
+F 0 "D?" V 13546 3270 50  0000 R CNN
+F 1 "D" V 13455 3270 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 13500 3350 50  0001 C CNN
+F 3 "~" H 13500 3350 50  0001 C CNN
+	1    13500 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61ECDEFD
+P 13700 3950
+F 0 "SW?" H 13700 4235 50  0000 C CNN
+F 1 "SW_Push" H 13700 4144 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 13700 4150 50  0001 C CNN
+F 3 "~" H 13700 4150 50  0001 C CNN
+	1    13700 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61ECDF03
+P 13500 4100
+F 0 "D?" V 13546 4020 50  0000 R CNN
+F 1 "D" V 13455 4020 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 13500 4100 50  0001 C CNN
+F 3 "~" H 13500 4100 50  0001 C CNN
+	1    13500 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61ECDF09
+P 13700 4700
+F 0 "SW?" H 13700 4985 50  0000 C CNN
+F 1 "SW_Push" H 13700 4894 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 13700 4900 50  0001 C CNN
+F 3 "~" H 13700 4900 50  0001 C CNN
+	1    13700 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61ECDF0F
+P 13500 4850
+F 0 "D?" V 13546 4770 50  0000 R CNN
+F 1 "D" V 13455 4770 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 13500 4850 50  0001 C CNN
+F 3 "~" H 13500 4850 50  0001 C CNN
+	1    13500 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61ECDF15
+P 13700 5450
+F 0 "SW?" H 13700 5735 50  0000 C CNN
+F 1 "SW_Push" H 13700 5644 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 13700 5650 50  0001 C CNN
+F 3 "~" H 13700 5650 50  0001 C CNN
+	1    13700 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61ECDF1B
+P 13500 5600
+F 0 "D?" V 13546 5520 50  0000 R CNN
+F 1 "D" V 13455 5520 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 13500 5600 50  0001 C CNN
+F 3 "~" H 13500 5600 50  0001 C CNN
+	1    13500 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61ECDF21
+P 13700 6200
+F 0 "SW?" H 13700 6485 50  0000 C CNN
+F 1 "SW_Push" H 13700 6394 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 13700 6400 50  0001 C CNN
+F 3 "~" H 13700 6400 50  0001 C CNN
+	1    13700 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61ECDF27
+P 13500 6350
+F 0 "D?" V 13546 6270 50  0000 R CNN
+F 1 "D" V 13455 6270 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 13500 6350 50  0001 C CNN
+F 3 "~" H 13500 6350 50  0001 C CNN
+	1    13500 6350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 61ECDF2D
+P 13700 6950
+F 0 "SW?" H 13700 7235 50  0000 C CNN
+F 1 "SW_Push" H 13700 7144 50  0000 C CNN
+F 2 "keyswitches:SW_MX" H 13700 7150 50  0001 C CNN
+F 3 "~" H 13700 7150 50  0001 C CNN
+	1    13700 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 61ECDF33
+P 13500 7100
+F 0 "D?" V 13546 7020 50  0000 R CNN
+F 1 "D" V 13455 7020 50  0000 R CNN
+F 2 "Diode_SMD:D_SOD-123" H 13500 7100 50  0001 C CNN
+F 3 "~" H 13500 7100 50  0001 C CNN
+	1    13500 7100
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4150 3950
+Wire Wire Line
+	4150 3950 4150 4700
+Connection ~ 4150 4700
+Wire Wire Line
+	4150 4700 4150 5450
+Connection ~ 4150 5450
+Wire Wire Line
+	4150 5450 4150 6200
+Connection ~ 4150 6200
+Wire Wire Line
+	4150 6200 4150 6950
+Connection ~ 4150 6950
+Wire Wire Line
+	4150 6950 4150 7500
+Connection ~ 4900 3950
+Wire Wire Line
+	4900 3950 4900 4700
+Connection ~ 4900 4700
+Wire Wire Line
+	4900 4700 4900 5450
+Connection ~ 4900 5450
+Wire Wire Line
+	4900 5450 4900 6200
+Connection ~ 4900 6200
+Wire Wire Line
+	4900 6200 4900 6950
+Connection ~ 4900 6950
+Wire Wire Line
+	4900 6950 4900 7500
+Connection ~ 5650 3950
+Wire Wire Line
+	5650 3950 5650 4700
+Connection ~ 5650 4700
+Wire Wire Line
+	5650 4700 5650 5450
+Connection ~ 5650 5450
+Wire Wire Line
+	5650 5450 5650 6200
+Connection ~ 5650 6200
+Wire Wire Line
+	5650 6200 5650 6950
+Connection ~ 5650 6950
+Wire Wire Line
+	5650 6950 5650 7500
+Connection ~ 6400 3950
+Wire Wire Line
+	6400 3950 6400 4700
+Connection ~ 6400 4700
+Wire Wire Line
+	6400 4700 6400 5450
+Connection ~ 6400 5450
+Wire Wire Line
+	6400 5450 6400 6200
+Connection ~ 6400 6200
+Wire Wire Line
+	6400 6200 6400 6950
+Connection ~ 6400 6950
+Wire Wire Line
+	6400 6950 6400 7500
+Connection ~ 7150 3950
+Wire Wire Line
+	7150 3950 7150 4700
+Connection ~ 7150 4700
+Wire Wire Line
+	7150 4700 7150 5450
+Connection ~ 7150 5450
+Wire Wire Line
+	7150 5450 7150 6200
+Connection ~ 7150 6200
+Wire Wire Line
+	7150 6200 7150 6950
+Connection ~ 7150 6950
+Wire Wire Line
+	7150 6950 7150 7500
+Connection ~ 7900 3950
+Wire Wire Line
+	7900 3950 7900 4700
+Connection ~ 7900 4700
+Wire Wire Line
+	7900 4700 7900 5450
+Connection ~ 7900 5450
+Wire Wire Line
+	7900 5450 7900 6200
+Connection ~ 7900 6200
+Wire Wire Line
+	7900 6200 7900 6950
+Connection ~ 7900 6950
+Wire Wire Line
+	7900 6950 7900 7500
+Connection ~ 8650 3950
+Wire Wire Line
+	8650 3950 8650 4700
+Connection ~ 8650 4700
+Wire Wire Line
+	8650 4700 8650 5450
+Connection ~ 8650 5450
+Wire Wire Line
+	8650 5450 8650 6200
+Connection ~ 8650 6200
+Wire Wire Line
+	8650 6200 8650 6950
+Connection ~ 8650 6950
+Wire Wire Line
+	8650 6950 8650 7500
+Connection ~ 9400 3950
+Wire Wire Line
+	9400 3950 9400 4700
+Connection ~ 9400 4700
+Wire Wire Line
+	9400 4700 9400 5450
+Connection ~ 9400 5450
+Wire Wire Line
+	9400 5450 9400 6200
+Connection ~ 9400 6200
+Wire Wire Line
+	9400 6200 9400 6950
+Connection ~ 9400 6950
+Wire Wire Line
+	9400 6950 9400 7500
+Connection ~ 10150 3950
+Wire Wire Line
+	10150 3950 10150 4700
+Connection ~ 10150 4700
+Wire Wire Line
+	10150 4700 10150 5450
+Connection ~ 10150 5450
+Wire Wire Line
+	10150 5450 10150 6200
+Connection ~ 10150 6200
+Wire Wire Line
+	10150 6200 10150 6950
+Connection ~ 10150 6950
+Wire Wire Line
+	10150 6950 10150 7500
+Connection ~ 10900 3950
+Wire Wire Line
+	10900 3950 10900 4700
+Connection ~ 10900 4700
+Wire Wire Line
+	10900 4700 10900 5450
+Connection ~ 10900 5450
+Wire Wire Line
+	10900 5450 10900 6200
+Connection ~ 10900 6200
+Wire Wire Line
+	10900 6200 10900 6950
+Connection ~ 10900 6950
+Wire Wire Line
+	10900 6950 10900 7500
+Connection ~ 11650 3950
+Wire Wire Line
+	11650 3950 11650 4700
+Connection ~ 11650 4700
+Wire Wire Line
+	11650 4700 11650 5450
+Connection ~ 11650 5450
+Wire Wire Line
+	11650 5450 11650 6200
+Connection ~ 11650 6200
+Wire Wire Line
+	11650 6200 11650 6950
+Connection ~ 11650 6950
+Wire Wire Line
+	11650 6950 11650 7500
+Connection ~ 12400 3950
+Wire Wire Line
+	12400 3950 12400 4700
+Connection ~ 12400 4700
+Wire Wire Line
+	12400 4700 12400 5450
+Connection ~ 12400 5450
+Wire Wire Line
+	12400 5450 12400 6200
+Connection ~ 12400 6200
+Wire Wire Line
+	12400 6200 12400 6950
+Connection ~ 12400 6950
+Wire Wire Line
+	12400 6950 12400 7500
+Connection ~ 13150 3950
+Wire Wire Line
+	13150 3950 13150 4700
+Connection ~ 13150 4700
+Wire Wire Line
+	13150 4700 13150 5450
+Connection ~ 13150 5450
+Wire Wire Line
+	13150 5450 13150 6200
+Connection ~ 13150 6200
+Wire Wire Line
+	13150 6200 13150 6950
+Connection ~ 13150 6950
+Wire Wire Line
+	13150 6950 13150 7500
+Connection ~ 13900 3950
+Wire Wire Line
+	13900 3950 13900 4700
+Connection ~ 13900 4700
+Wire Wire Line
+	13900 4700 13900 5450
+Connection ~ 13900 5450
+Wire Wire Line
+	13900 5450 13900 6200
+Connection ~ 13900 6200
+Wire Wire Line
+	13900 6200 13900 6950
+Connection ~ 13900 6950
+Wire Wire Line
+	13900 6950 13900 7500
+$EndSCHEMATC

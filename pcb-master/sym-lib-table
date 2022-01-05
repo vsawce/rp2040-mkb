@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name RP2040)(type Legacy)(uri "${SNAPEDA_SYMBOL_DIR}/SnapEDA Library/RP2040.lib")(options "")(descr ""))
+  (lib (name pcb-master-rescue)(type Legacy)(uri ${KIPRJMOD}/pcb-master-rescue.lib)(options "")(descr ""))
 )
